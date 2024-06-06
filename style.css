@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+
+}
+/* navigation bar box 6 */
+
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+/* logo */
+
+.nav-logo{
+
+    height: 50px;
+    width: 110px;
+
+}
+
+.logo{
+    
+    background-image: url(amazon_logo.png);
+    height: 50px;
+    width: 100%;
+    background-size: cover;
+}
+
+/* Feature 1 - Border and Hover  */
+
+.border{
+
+    border: 2px solid transparent;
+    
+}
+
+.border:hover{
+    border: 2px solid white;
+    /* padding: 2px; */
+}
+
+/* box2  3 parts (Deliver, icon, country)*/
+
+.nav-address{
+     margin-top: 2px;
+     
+}
+
+/* deliver */
+.address-first{
+    color: #cccccc;
+    font-size: 0.75rem;
+    margin-left: 15px;
+}
+
+/* Icon,Country */
+.address-second{
+    color: white ;
+    margin-left: 2px;   
+
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+
+/* Navigation bar - Search Bar 3 parts (All option,Amazon search bar, Icon) */
+
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(255, 174, 0);
+    width: 410px;
+    height: 40px;
+    border-radius: 4px;
+}
+
+
+.nav-search:hover{
+    border: 2px solid rgb(255, 174, 0)
+}
+
+/* All option */
+
+.search-select{
+    background-color: #f3f3f3ce;
+    width: 40px;
+    text-align: center;
+    border-bottom-left-radius: 4px;
+    border-top-left-radius: 4px;
+    border: none;
+}
+.search-input{
+
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+
+/* Search Icon */
+
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;   /* horizontal  */
+    align-items: center;  /* vertival  */
+    font-size: 1.2rem;
+    border-bottom-left-radius: 4px;
+    border-top-left-radius: 4px;
+    color: #0f0f0f;
+}
+
+span{
+    font: size 0.7 ;
+
+}
+
+.nav-second{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+ /* shopping cart */
+
+.nav-cart i{
+    font-size: 30px;
+}
+.nav-cart{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+
