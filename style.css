@@ -166,7 +166,7 @@ span{
  .hero-section{
     background-image: url(Hero_Section.jpg);
     background-size: cover;
-    height: 250px;
+    height: 220px;
  }
 
  /* shop section  */
@@ -185,6 +185,7 @@ span{
     /* border: 2px solid black; */
     background-color: white;
     padding: 20px 0px 15px;
+    margin-bottom: 20px;
     /* margin-top: 15px; */
 
  }
