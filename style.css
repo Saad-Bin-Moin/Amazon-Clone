@@ -166,5 +166,45 @@ span{
  .hero-section{
     background-image: url(Hero_Section.jpg);
     background-size: cover;
-    height: 600px;
+    height: 250px;
+ }
+
+ /* shop section  */
+
+ .shop-section{
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+ }
+
+ .box{
+    height: 400px;
+    width: 23%;
+    /* border: 2px solid black; */
+    background-color: white;
+    padding: 20px 0px 15px;
+    /* margin-top: 15px; */
+
+ }
+ .box-img{
+    height: 300px;
+    background-size:cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-position: center;
+ }
+
+ .box-content{
+    margin-left: 10px;
+    margin-right: 10px;
+ }
+ .box-content{
+    margin-left: 10px ;
+    margin-right: 10px;
+ }
+
+ .box-content p{
+    color: #007185;
  }
